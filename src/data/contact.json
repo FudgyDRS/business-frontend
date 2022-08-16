@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "classOption": "address-list mb-4 mb-xl-10 pb-2",
+        "title": "Online Business",
+        "info": "PO Box 281, El Segundo, CA 90245"
+    },
+    {
+        "id": 1,
+        "classOption": "address-list mb-4 mb-xl-10 pb-2",
+        "title": "Virtual First Bussiness",
+        "info": "245 Southern Street, Apartment no. 174 Central Twon, New Yourk, USA"
+    },
+    {
+        "id": 3,
+        "classOption": "address-list mb-4 mb-xl-10 pb-2",
+        "title": "Phone Number",
+        "info": "+1 (323) 362-2236 <br /> +98745 612 321"
+    },
+    {
+        "id": 4,
+        "classOption": "address-list",
+        "title": "Web Address",
+        "info": "info@fudgylabs.com <br /> www.fudgylabs.com"
+    }
+]
