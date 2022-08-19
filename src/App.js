@@ -28,19 +28,23 @@ import "./assets/scss/style.scss";
 //node_modules\swiper\modules\navigation\navigation.scss
 
 import { createTheme } from "src/theme";
-import { ThemeProvider } from "@material-ui/core";
+import { ThemeProvider } from "@mui/material";
 import { routes } from "src/routes";
-import AuthGuard from "src/component/AuthGuard";
-import PageLoading from "src/component/PageLoading";
+//import AuthGuard from "src/component/AuthGuard";
+import PageLoading from "src/components/PageLoading";
+import { createBrowserHistory } from "history";
+const history = createBrowserHistory();
 
 const App = () => {
   const theme = createTheme();
-  console.log(theme);
+  //console.log(theme);
   return (
     <div className="App">
-      <ThemeProvider theme={theme}>
-        <RenderRoutes data={routes} />
-      </ThemeProvider>
+      {/* <ThemeProvider theme={theme}>  */}
+      <Router history={history}> 
+        <RenderRoutes data={routes} /> 
+        </Router>
+      {/* </ThemeProvider> */}
     </div>
   );
 }
@@ -51,7 +55,7 @@ function RenderRoutes(props) {
       <Switch>
         {props.data.map((route, i) => {
           const Component = route.component;
-          const Guard = route.guard ? AuthGuard : Fragment;
+          //const Guard = route.guard ? AuthGuard : Fragment;
           const Layout = route.layout || Fragment;
           return (
             <Route
@@ -59,7 +63,7 @@ function RenderRoutes(props) {
               key={i} 
               path={route.path}
               render={(props) => (
-                <Guard>
+                //<Guard>
                   <Layout>
                     {route.routes ? (
                       <RenderRoutes data={route.routes} />
@@ -67,7 +71,7 @@ function RenderRoutes(props) {
                       <Component {...props} />
                     )}
                   </Layout>
-                </Guard>
+                //</Guard>
               )}
             />
           );
