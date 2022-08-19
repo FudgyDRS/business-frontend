@@ -13,38 +13,26 @@
     },
     {
         "id": 3,
-        "thumb": "./images/team/3.png",
+        "thumb": "./images/team/4.png",
         "name": "Abel Cancino",
         "designation": "Business Manager"
     },
     {
         "id": 4,
-        "thumb": "./images/team/4.png",
+        "thumb": "./images/team/6.png",
         "name": "Maiazana",
         "designation": "Web3 Engineer"
     },
     {
         "id": 5,
-        "thumb": "./images/team/6.png",
-        "name": "Thoiab",
+        "thumb": "./images/team/7.png",
+        "name": "Thobias",
         "designation": "Senior Marketer"
     },
     {
         "id": 6,
-        "thumb": "./images/team/7.png",
+        "thumb": "./images/team/3.png",
         "name": "William Taylor",
         "designation": "Jr  Web3 Engineer"
-    },
-    {
-        "id": 7,
-        "thumb": "./images/team/8.png",
-        "name": "Ethan Williams",
-        "designation": "Head of Strategy"
-    },
-    {
-        "id": 8,
-        "thumb": "./images/team/9.png",
-        "name": "Neha Kakker",
-        "designation": "Head of Marketing"
     }
 ]

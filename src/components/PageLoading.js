@@ -5,7 +5,7 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) => ({
   root: {
     alignItems: "center",
-    backgroundColor: "#21115E",
+    backgroundColor: "#9e3a7",
     display: "flex",
     flexDirection: "column",
     height: "100%",
@@ -34,7 +34,7 @@ export default function PageLoading() {
         {/* <LinearProgress height={10} /> */}
         <img
           className={classes.loader}
-          src="/images/logo_white.png"
+          src="/images/logo.svg"
           alt="loader"
         />
       </Box>
