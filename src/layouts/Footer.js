@@ -79,14 +79,6 @@ const Footer = () => {
                                     <li>
                                         <Link
                                             className="footer-link"
-                                            to={"/about"}
-                                        >
-                                            Conditions
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
                                             to={"/blog"}
                                         >
                                             Blog Post
@@ -120,7 +112,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={`/service-details/2`}
                                         >
-                                            Business Plan
+                                            FinTech
                                         </Link>
                                     </li>
                                     <li>
@@ -128,15 +120,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={`/service-details/3`}
                                         >
-                                            Creative Strategy
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={`/service-details/4`}
-                                        >
-                                            Branding{" "}
+                                            Backend
                                         </Link>
                                     </li>
                                     <li>
@@ -144,23 +128,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={`/service-details/1`}
                                         >
-                                            Digital Solution
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={`/service-details/5`}
-                                        >
-                                            Marketing Policy
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={`/service-details/6`}
-                                        >
-                                            Campaign &amp; PR
+                                            Audits
                                         </Link>
                                     </li>
                                 </ul>

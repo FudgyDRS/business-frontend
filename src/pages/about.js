@@ -14,29 +14,30 @@ import ServiceListContainer from "../containers/service/service-list";
 //import Layout from "../layouts/index";
 
 const AboutPage = () => {
-    return (
-        <div>
-                <SEO title="Buznex - About" />
-                <div className="wrapper">
-                    {/* <Header /> */}
-                    <PageBanner
-                        title="About us"
-                        excerpt="Pleasure rationally encounter consequences <br /> are extremely painful
-                        great oppurtunity"
-                        image="./images/banner/1.png"
-                    />
-                    <IconBoxContainer classOption="section-pt" />
-                    <BrandContainer />
-                    <AboutContainer />
-                    <ServiceListContainer />
-                    <TestimonialReverse />
-                    <FunFactContainer classOption="mt-0 mt-lg-0" />
-                    <NewsletterArea />
-                    {/* <Footer /> */}
-                    <ScrollToTop />
-                </div>
-            </div>
-    );
+  return (
+    <div>
+      <SEO title="Buznex - About" />
+      <div className="wrapper">
+        {/* <Header /> */}
+        <PageBanner
+          title="About us"
+          excerpt="Engineering solves problems people never new they had in ways they couldn't possibly understand
+          <br/>
+          - Our CEO's tee-shirt"
+          image="./images/banner/1.png"
+        />
+        {/* <IconBoxContainer classOption="section-pt" /> */}
+        {/* <BrandContainer /> */}
+        <AboutContainer />
+        {/* <ServiceListContainer /> */}
+        {/* <TestimonialReverse /> */}
+        {/* <FunFactContainer classOption="mt-0 mt-lg-0" /> */}
+        <NewsletterArea />
+        {/* <Footer /> */}
+        <ScrollToTop />
+      </div>
+    </div>
+  );
 };
 
 export default AboutPage;

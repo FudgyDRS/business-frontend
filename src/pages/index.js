@@ -16,26 +16,26 @@ import ServiceListContainer from "../containers/service/service-list";
 //import Layout from "../layouts/index";
 
 const HomePage = () => {
-    return (
-        <div>
-                <SEO title="Buznex - Business React JS Template" />
-                <div className="wrapper">
-                    {/* <Header /> */}
-                    <IntroContainer />
-                    <BrandContainer />
-                    <IconBoxContainer classOption="section-pb" />
-                    <HomeAboutContainer />
-                    <ServiceListContainer />
-                    <TestimonialContainer />
-                    <FunFactContainer classOption="mt-10 mt-lg-0" />
-                    <TeamContainer classOption="section-pb" />
-                    <HomeBlog />
-                    <NewsletterArea />
-                    {/* <Footer /> */}
-                    <ScrollToTop />
-                </div>
-            </div>
-    );
+  return (
+    <div>
+      <SEO title="Buznex - Business React JS Template" />
+      <div className="wrapper">
+        {/* <Header /> */}
+        <IntroContainer />
+        <BrandContainer />
+        <IconBoxContainer classOption="section-pb" />
+        <HomeAboutContainer />
+        {/* <ServiceListContainer /> */}
+        <TestimonialContainer />
+        {/* <FunFactContainer classOption="mt-10 mt-lg-0" /> */}
+        <TeamContainer classOption="section-pb" />
+        <HomeBlog />
+        <NewsletterArea />
+        {/* <Footer /> */}
+        <ScrollToTop />
+      </div>
+    </div>
+  );
 };
 
 export default HomePage;

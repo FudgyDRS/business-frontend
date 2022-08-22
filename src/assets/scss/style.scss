@@ -16572,8 +16572,18 @@ textarea.form-control {
     }
 }
 
+.brand-header {
+    font-size: large;
+    text-align: center;
+    font-weight: 1000;
+    margin-top: 50px;
+}
+
 .single-brand {
-    text-align: center
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 200px;
 }
 
 .single-brand .thumb {

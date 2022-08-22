@@ -24,24 +24,19 @@ const HomeAboutContainer = () => {
                             <SectionTitle
                                 classOption="title-section"
                                 subTitle="ABOUT US"
-                                title="Best 
-                                <span class='text-primary'>
-                                    Digital Agency
-                                </span>
+                                title="Best <span class='text-primary'>
+                                    Blockchain Contractors</span>
                                 <br className='d-none d-xl-block' />
-                                in the Town"
+                                around"
                             />
                             <span className="date-meta">
-                                Scince 2001 <span className="hr"></span>
+                                Since 2018 <span className="hr"></span>
                             </span>
                             <p className="mb-5">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there anyone
-                                who loves or pursues or desires to obtain
+                                We come from the cross roads of technical deep insight and native Engish speakering.
                             </p>
                             <p className="high-light mb-8">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there
+                                Never has there been a better time to hire locally sourced brainpower.
                             </p>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
