@@ -19,7 +19,7 @@ const BlogDetailsPage = ({
   const data = BlogData.filter((blogItem) => blogItem.id === blogId);
   return (
     <div>
-      <SEO title="Buznex - Blog Details" />
+      <SEO title="Fudgy Labs - Blog Details" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

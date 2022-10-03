@@ -2,20 +2,14 @@
     {
         "id": 1,
         "classOption": "address-list mb-4 mb-xl-10 pb-2",
-        "title": "Online Business",
+        "title": "Shipping Address",
         "info": "PO Box 281, El Segundo, CA 90245"
-    },
-    {
-        "id": 1,
-        "classOption": "address-list mb-4 mb-xl-10 pb-2",
-        "title": "Virtual First Bussiness",
-        "info": "245 Southern Street, Apartment no. 174 Central Twon, New Yourk, USA"
     },
     {
         "id": 3,
         "classOption": "address-list mb-4 mb-xl-10 pb-2",
         "title": "Phone Number",
-        "info": "+1 (323) 362-2236 <br /> +98745 612 321"
+        "info": "+1 (323) 362-2236"
     },
     {
         "id": 4,

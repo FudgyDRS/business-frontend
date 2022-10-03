@@ -25,7 +25,7 @@ const BlogCategory = ({
   const categoryTitle = data[0].categories[0];
   return (
     <div>
-      <SEO title="Buznex - Blog Categories" />
+      <SEO title="Fudgy Labs - Blog Categories" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

@@ -15,7 +15,7 @@ import ServiceListContainer from "../containers/service/service-list";
 const ServicePage = () => {
   return (
     <div>
-      <SEO title="Buznex - Service" />
+      <SEO title="Fudgy Labs - Service" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner
@@ -29,7 +29,7 @@ const ServicePage = () => {
         <FunFactContainer classOption="mt-0 mt-lg-0" />
         <TeamContainer classOption="null" />
         <BrandContainer />
-        <NewsletterArea />
+        {/* <NewsletterArea /> */}
         {/* <Footer /> */}
         <ScrollToTop />
       </div>

@@ -11,7 +11,7 @@ import PageBanner from "../containers/global/page-banner";
 const ContactPage = () => {
   return (
     <div>
-      <SEO title="Buznex - Contact" />
+      <SEO title="Fudgy Labs - Contact" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner
@@ -21,7 +21,7 @@ const ContactPage = () => {
           image="./images/contact/1.png"
         />
         <ContactContainer />
-        <NewsletterArea />
+        {/* <NewsletterArea /> */}
         {/* <Footer /> */}
         <ScrollToTop />
       </div>

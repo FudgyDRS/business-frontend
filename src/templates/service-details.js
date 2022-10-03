@@ -19,7 +19,7 @@ const ServiceDetails = ({
   const data = ServiceData.filter((service) => service.id === serviceId);
   return (
     <div>
-      <SEO title="Buznex - Service Details" />
+      <SEO title="Fudgy Labs - Service Details" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

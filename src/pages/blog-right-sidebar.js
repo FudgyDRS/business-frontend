@@ -12,7 +12,7 @@ import SEO from "../components/seo";
 const BlogRightSidebarPage = () => {
     return (
         <div>
-                <SEO title="Buznex - Blog Right Sidebar" />
+                <SEO title="Fudgy Labs - Blog Right Sidebar" />
                 <div className="wrapper">
                     {/* <Header /> */}
                     <PageBanner

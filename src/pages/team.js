@@ -11,7 +11,7 @@ import TeampPageContainer from "../containers/team-page-container";
 const TeamPage = () => {
   return (
     <div>
-      <SEO title="Buznex - Team" />
+      <SEO title="Fudgy Labs - Team" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

@@ -25,7 +25,7 @@ const BlogTag = ({
   const tagTitle = data[0].tags[0];
   return (
     <div>
-      <SEO title="Buznex - Blog Tag" />
+      <SEO title="Fudgy Labs - Blog Tag" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

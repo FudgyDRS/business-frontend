@@ -11,7 +11,7 @@ import PageBanner from "../containers/global/page-banner";
 const FaqPage = () => {
   return (
     <div>
-      <SEO title="Buznex - Faq" />
+      <SEO title="Fudgy Labs - Faq" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

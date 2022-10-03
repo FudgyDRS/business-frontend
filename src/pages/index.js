@@ -18,7 +18,7 @@ import ServiceListContainer from "../containers/service/service-list";
 const HomePage = () => {
   return (
     <div>
-      <SEO title="Buznex - Business React JS Template" />
+      <SEO title="Fudgy Labs - Business React JS Template" />
       <div className="wrapper">
         {/* <Header /> */}
         <IntroContainer />
@@ -26,11 +26,11 @@ const HomePage = () => {
         <IconBoxContainer classOption="section-pb" />
         <HomeAboutContainer />
         {/* <ServiceListContainer /> */}
-        <TestimonialContainer />
+        {/* <TestimonialContainer /> */}
         {/* <FunFactContainer classOption="mt-10 mt-lg-0" /> */}
-        <TeamContainer classOption="section-pb" />
-        <HomeBlog />
-        <NewsletterArea />
+        {/* <TeamContainer classOption="section-pb" /> */}
+        {/* <HomeBlog /> */}
+        {/* <NewsletterArea /> */}
         {/* <Footer /> */}
         <ScrollToTop />
       </div>

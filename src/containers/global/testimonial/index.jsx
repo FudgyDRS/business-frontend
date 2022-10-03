@@ -47,7 +47,7 @@ const TestimonialContainer = () => {
                             <div data-depth="0.2">
                                 <img
                                     src={`/images/testimonial/1.png`}
-                                    alt="Buznex"
+                                    alt="Fudgy Labs"
                                 />
                             </div>
                         </div>
@@ -60,9 +60,9 @@ const TestimonialContainer = () => {
                                 title="Don't Believe us Check <span class='text-primary'>Clients</span> word"
                             />
                             <h5 className="happy-customer">
-                                More over{" "}
-                                <span className="font-weight-bold">2500</span>{" "}
-                                happy customer
+                                More than{" "}
+                                <span className="font-weight-bold">1200</span>{" "}
+                                happy customers
                             </h5>
                         </div>
                         <div className="testimonial-carousel position-relative">

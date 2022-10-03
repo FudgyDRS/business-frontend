@@ -20,7 +20,7 @@ const BlogAuthor = ({
   const authorTitle = data[0].author;
   return (
     <div>
-      <SEO title="Buznex - Blog Author" />
+      <SEO title="Fudgy Labs - Blog Author" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

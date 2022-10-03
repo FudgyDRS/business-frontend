@@ -33,7 +33,9 @@ const HomeAboutContainer = () => {
                 Since 2018 <span className="hr"></span>
               </span>
               <p className="mb-5">
-                We come from the cross roads of deep technical insight and native Engish speakering.
+                Based out of Southern California
+                <br/>
+                We are a team full stack software engineers, fluent in both Spanish and English
               </p>
               <p className="high-light mb-8">
                 Never has there been a better time to hire locally sourced brainpower.

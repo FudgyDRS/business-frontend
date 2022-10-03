@@ -16,14 +16,14 @@ import ServiceListContainer from "../containers/service/service-list";
 const AboutPage = () => {
   return (
     <div>
-      <SEO title="Buznex - About" />
-      <div className="wrapper">
+      <SEO title="Fudgy Labs - About" />
+      <div className="wrapper" style={{alignSelf: "start"}}>
         {/* <Header /> */}
         <PageBanner
           title="About us"
-          excerpt="Engineering solves problems people never new they had in ways they couldn't possibly understand
+          excerpt="“ Engineering solves problems people never new they had in ways they couldn't possibly understand ”
           <br/>
-          - Our CEO's tee-shirt"
+          - Charles Taylor"
           image="./images/banner/1.png"
         />
         {/* <IconBoxContainer classOption="section-pt" /> */}
@@ -32,7 +32,7 @@ const AboutPage = () => {
         {/* <ServiceListContainer /> */}
         {/* <TestimonialReverse /> */}
         {/* <FunFactContainer classOption="mt-0 mt-lg-0" /> */}
-        <NewsletterArea />
+        {/* <NewsletterArea /> */}
         {/* <Footer /> */}
         <ScrollToTop />
       </div>

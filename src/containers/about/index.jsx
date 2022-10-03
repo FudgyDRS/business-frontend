@@ -4,7 +4,7 @@ import SectionTitle from "../../components/section-title";
 import Parallax from "parallax-js";
 
 const AboutContainer = () => {
-  const sceneEl = useRef(null);
+  /* const sceneEl = useRef(null);
 
   useEffect(() => {
     const parallaxInstance = new Parallax(sceneEl.current, {
@@ -14,12 +14,12 @@ const AboutContainer = () => {
     parallaxInstance.enable();
 
     return () => parallaxInstance.disable();
-  }, []);
+  }, []); */
   return (
     <div className="about-us position-relative">
       <div className="container">
         <div className="row mb-n7 align-items-center">
-          <div className="col-xl-5 col-md-6 offset-xl-1 mb-7">
+          <div className="col-xl-5 col-md-6 offset-xl-1 mb-7" style={{alignSelf: "start"}}>
             <div className="about-content">
               <SectionTitle
                 classOption="title-section"
@@ -35,7 +35,7 @@ const AboutContainer = () => {
               <p className="mb-5">
                 Fudgy Labs was Est. 2018
                 <br />
-                After nearly a decade as full stack software contracting our CEO felt it was time to take some junior devs under his wing, and so he established Fudgy Labs.
+                After over a decade as full stack software contracting our CEO felt it was time to take some junior devs under his wing, and so he established Fudgy Labs.
               </p>
               <p className="mb-5">
                 With the market ripe with easy oportunities we began our design approach with frontend design and simple EVM smart contract.
@@ -52,14 +52,6 @@ const AboutContainer = () => {
                 text="Learn more"
                 path="/about"
               />
-            </div>
-          </div>
-          <div className="col-xl-6 order-lg-first col-md-6 mb-7">
-            <div
-              className="about-photo scene text-center text-lg-left"
-              id="scene"
-              ref={sceneEl}
-            >
             </div>
           </div>
         </div>

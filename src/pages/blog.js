@@ -12,7 +12,7 @@ import SEO from "../components/seo";
 const BlogPage = () => {
   return (
     <div>
-      <SEO title="Buznex - Blog" />
+      <SEO title="Fudgy Labs - Blog" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

@@ -20,7 +20,7 @@ const BlogDate = ({
   const dateTitle = data[0].date;
   return (
     <div>
-      <SEO title="Buznex - Blog Date" />
+      <SEO title="Fudgy Labs - Blog Date" />
       <div className="wrapper">
         {/* <Header /> */}
         <PageBanner

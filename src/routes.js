@@ -26,6 +26,13 @@ export const routes = [
 
   {
     exact: true,
+    path: "/contact",
+    layout: Layout,
+    component: lazy(() => import("./pages/contact")),
+  },
+
+  {
+    exact: true,
     path: "/service-details",
     layout: Layout,
     component: lazy(() => import(`${"./templates/service-details"}`)),
