@@ -18,7 +18,7 @@ import ServiceListContainer from "../containers/service/service-list";
 const HomePage = () => {
   return (
     <div>
-      <SEO title="Fudgy Labs - Business React JS Template" />
+      <SEO title="Fudgy Labs" />
       <div className="wrapper">
         {/* <Header /> */}
         <IntroContainer />
